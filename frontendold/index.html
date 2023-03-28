@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Envirodash</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kaisei+Opti&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="welcome">
+        <section class="nav">
+            <ul>
+                <li><a href="#food">food</a></li>
+                <li><a href="#travel">travel</a></li>
+                <li><a href="#tips">tips</a></li>
+            </ul>
+        </section>
+        <div class="flex-welcome-container">
+            <div class="graph-container">
+                <svg width="650" height="650" viewBox="0 0 650 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="325" cy="325" r="251" stroke="#ADE28A" stroke-width="148" />
+                </svg>
+            </div>
+            <div>
+                <h1>Welcome to Envirodash, Jonah!</h1>
+            </div>
+        </div>
+    </section>
+    <section class="food">
+        <a name="food"></a>
+        <div class="flex-food-container">
+            <div>
+                <h1>Recently logged</h1>
+                <table>
+                    <tr>
+                        <th>Food</th>
+                        <th>Mass</th>
+                        <th>Carbon</th>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h1>Log food</h1>
+                <form action="">
+                    <label for="food">Food</label>
+                    <select name="food">
+                        <option value="apple">wokr in progress</option>
+                    </select>
+                    <label for="mass">Mass</label>
+                    <input type="text" name="mass">
+                    <input type="submit" value="Log">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

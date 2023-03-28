@@ -1,0 +1,319 @@
+html,
+body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Kaisei Opti', serif;
+}
+
+p,
+label,
+input,
+select,
+tr {
+    font-family: 'Inter';
+}
+
+.welcome {
+    background-color: #FBFFE5;
+    height: 100vh;
+}
+
+.welcome h1 {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 64px;
+}
+
+.flex-welcome-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-welcome-container>.graph-container {
+    text-align: center;
+}
+
+.graph-container {
+    margin: auto;
+}
+
+#piechart {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.graph-container>div {
+    margin: auto;
+}
+
+.flex-welcome-container>div {
+    flex: 1;
+}
+
+.nav {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+.nav>ul {
+    display: inline-block;
+    font-family: 'Inter';
+}
+
+.nav>ul>li {
+    display: inline-block;
+    padding: 0 50px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav>ul>li>a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav>ul>li>a:hover {
+    color: rgba(0, 0, 0, 0.486);
+}
+
+section.food,
+section.travel,
+section.pet {
+    height: 100vh;
+    padding: 50px 200px;
+}
+
+.input-section-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.input-section-container>div:first-child {
+    flex: 2;
+}
+
+.input-section-container>div:last-child {
+    flex: 1;
+}
+
+.input-section-container h1 {
+    font-size: 48px;
+    font-family: 'Kaisei Opti', serif;
+    margin-bottom: 20px;
+}
+
+table {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    font-family: 'Inter';
+}
+
+table thead th {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #212529;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    text-align: inherit;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+table td {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 4px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    margin: 5px 0 10px 0;
+}
+
+input:focus,
+select:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+.delete-button {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #f33939;
+    border-color: #f33939;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.delete-button:hover {
+    color: #fff;
+    background-color: #f76c6c;
+    border-color: #f76c6c;
+}
+
+.pet {
+    background-color: #FBFFE5;
+    height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 64px;
+}
+
+section.tips {
+    background-color: #FFF;
+}
+
+.tips-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+    justify-content: top;
+    overflow-x: scroll;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+.tips-container>div {
+    flex: 1;
+    min-width: 250px;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 5px 0px;
+    -webkit-box-shadow: 6px 10px 13px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 10px 13px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 10px 13px -7px rgba(0, 0, 0, 0.75);
+
+}
+
+.tips-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.tip-padded {
+    padding: 0px 30px;
+}
+
+h2 {
+    font-family: 'Kaisei Opti', serif;
+}
+
+/*
+ *  STYLE 4
+ */
+
+.tips-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.tips-container::-webkit-scrollbar {
+    margin-top: 20px;
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+.tips-container::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+section.tips {
+    padding: 50px 200px;
+    height: 50vh;
+    margin-bottom: 100px;
+}
+
+.pet-flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pet-flex-container>div {
+    flex: 1;
+}
+
+.button {
+    cursor: pointer;
+    outline: 0;
+    color: #fff;
+    background-color: #ADE28A;
+    border-color: #ADE28A;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+h4 {
+    font-family: 'Kaisei Opti', serif;
+    font-size: 32px;
+}
