@@ -28,7 +28,7 @@ I haven't included all files here, but the most notable ones are listed.
 	- `components/` components of site (sections in this case)
 
 ### Backend
-Uses Node.js with [Express.js](https://expressjs.com/) as a basic web server. Connects to a [MariaDB](https://mariadb.org/) through the use of the [Sequelize](https://sequelize.org/) library (specific details mentioned in [hosting section](#hosting)).
+Uses Node.js with [Express.js](https://expressjs.com/) as a basic web server. Connects to a [MariaDB](https://mariadb.org/) through the use of the [Sequelize](https://sequelize.org/) ORM library (specific details mentioned in [hosting section](#hosting)).
 #### File Structure
 - `config/` config files such as database connection
 - `models/` models for database tables
